@@ -9,8 +9,8 @@ import { getData } from "./modules/dataMiner.js";
     let theTeam = document.querySelector('#team-section'),
         theTemplate = document.querySelector('#bio-template').content;
 
-        // just a test to see if this is imported properly
-        getData();
+    // just a test to see if this is imported properly
+    // getData();
 
     function buildTeam(data) {
         //get all the keys (names) from the data object and use that to iterate through the data
@@ -27,8 +27,8 @@ import { getData } from "./modules/dataMiner.js";
             // grab the image from the object and set it as the source
             containers[0].querySelector('img').src = `images/${data[prof].avatar}`;
 
-            containers[1].textContent = data[prof].name;
-            containers[2].textContent = data[prof].role;
+            containers[1].textContent = data[prof].favourite;
+            containers[2].textContent = data[prof].info;
             containers[3].textContent = data[prof].nickname;
 
             theTeam.appendChild(panel);
@@ -36,5 +36,5 @@ import { getData } from "./modules/dataMiner.js";
     }
 
 
-   getData(buildTeam);
+    getData(buildTeam);
 })();
