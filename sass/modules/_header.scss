@@ -1,0 +1,26 @@
+        .hidden {
+            display: none;
+            text-align: center;
+        }
+        
+        .topnav {
+            background-color: rgb(139, 28, 28);
+            overflow: hidden;
+        }
+        /* inside the bar */
+        
+        .topnav a {
+            float: center;
+            display: grid;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+            font-size: 32px;
+        }
+        /* to change the color on hover */
+        
+        .topnav a:hover {
+            background-color: rgb(0, 118, 150);
+            color: rgb(0, 0, 0);
+        }

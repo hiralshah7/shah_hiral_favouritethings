@@ -8,11 +8,16 @@
 
     <link rel="stylesheet" href="css/main.css">
 
-    <title>Learning NPM and SASS</title>
+    <title>My Top Three Favourite Things</title>
 </head>
 
 <body>
     <h1 class="hidden"> This is a team page</h1>
+    <div class="topnav" id="myTopnav">
+        <a href="#My Favourite Things" class="active">My Favourite Things</a>
+        </a>
+    </div>
+
 
     <section id="team-section"></section>
 
@@ -22,12 +27,20 @@
     <template id="bio-template">
         <section class="bio_panel">
             <div class="avatar">
+             
                 <!-- src gets added dynamically -->
-                <img src="" alt="prof image">
+                <div class="container">
+                <img src="" alt="prof image" width="400" height="300">
+                <div class="overlay">
+                    <div class="text">My Favourites
+                        </div>
+                    </div>
+                </div>
             </div>
+
             <!-- slug is just placeholder - this will get replaced -->
             <h2 class="p_name">slug</h2>
-            <h3 class="p_role">slug</h3>
+            <h3 class="p_info">slug</h3>
             <p class="p_nickname">slug</p>
         </section>
     </template>
