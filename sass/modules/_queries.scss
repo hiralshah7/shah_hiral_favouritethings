@@ -1,95 +1,19 @@
-        @media screen and (min-width: 768px) {
-            //add the grid to the team section
-            #team-section {
-                display: grid;
-                justify-content: space-between;
-                text-align: center;
-                align-items: center;
-                // justify-content: space-between;
-                // text-align: justify;
-                margin: 10px;
-                // object-fit: center;
-                /* fit as many items as possible in the grid container using minmax.
+    @media screen and (min-width: 768px) {
+        //add the grid to the team section
+        #fav-section {
+            display: grid;
+            justify-content: space-between;
+            border: 1px solid black;
+            text-align: center;
+            align-items: center;
+            // justify-content: space-between;
+            // text-align: justify;
+            margin: 10px;
+            // object-fit: center;
+            /* fit as many items as possible in the grid container using minmax.
             Make each item's min width 170 pixels and its their max width 1 fraction.
             The grid system will divide up the available space and fit them in.
         */
-                grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
-            }
+            grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
         }
-        
-        .bio_panel {
-            display: grid;
-            justify-items: center;
-            justify-content: space-between;
-            margin: 30px;
-        }
-        
-        .container {
-            position: relative;
-            width: 400px;
-            height: 300px;
-        }
-        
-        .avatar {
-            display: block;
-            justify-content: center;
-            // padding-left: 5px;
-            // padding-right: 5px;
-            // padding-top: 20px;
-            // padding-bottom: 20px;
-            // margin-top: 10px;
-        }
-        
-        .overlay {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            height: 300px;
-            width: 400px;
-            opacity: 0;
-            transition: .5s ease;
-            background-color: #0d1214;
-        }
-        
-        .container:hover .overlay {
-            opacity: 0.9;
-        }
-        
-        .text {
-            color: white;
-            font-size: 20px;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            -webkit-transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-            text-align: center;
-        }
-        
-        .p_name {
-            text-decoration: underline overline;
-            font-weight: 700;
-            margin-top: 10px;
-            margin-bottom: 20px;
-            font-size: 25px;
-            justify-content: center;
-            text-align: center;
-        }
-        
-        .p_info {
-            margin-bottom: 20px;
-            font-size: 20px;
-            justify-content: space-between;
-            align-content: center;
-            text-align: center;
-        }
-        
-        .p_nickname {
-            text-decoration: underline;
-            font-weight: 700;
-            font-size: larger;
-            margin-top: 10px;
-        }
+    }

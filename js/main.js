@@ -6,8 +6,8 @@ import { getData } from "./modules/dataMiner.js";
 //also called a module file
 (() => {
     console.log('fired!');
-    let theTeam = document.querySelector('#team-section'),
-        theTemplate = document.querySelector('#bio-template').content;
+    let theTeam = document.querySelector('#fav-section'),
+        theTemplate = document.querySelector('#fav-template').content;
 
     // just a test to see if this is imported properly
     // getData();
@@ -25,7 +25,7 @@ import { getData } from "./modules/dataMiner.js";
             let containers = panel.firstElementChild.children;
 
             // grab the image from the object and set it as the source
-            containers[0].querySelector('img').src = `images/${data[prof].avatar}`;
+            containers[0].querySelector('img').src = `images/${data[prof].fav_images}`;
 
             containers[1].textContent = data[prof].favourite;
             containers[2].textContent = data[prof].info;
