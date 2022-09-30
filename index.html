@@ -19,14 +19,14 @@
     </div>
 
 
-    <section id="team-section"></section>
+    <section id="fav-section"></section>
 
     <!-- template tags should go at the bottom of the HTML markup -->
     <!-- template tags don't get entered, but their content does -->
 
-    <template id="bio-template">
-        <section class="bio_panel">
-            <div class="avatar">
+    <template id="fav-template">
+        <section class="fav_panel">
+            <div class="fav_images">
              
                 <!-- src gets added dynamically -->
                 <div class="container">
@@ -39,25 +39,36 @@
             </div>
 
             <!-- slug is just placeholder - this will get replaced -->
-            <h2 class="p_name">slug</h2>
-            <h3 class="p_info">slug</h3>
-            <p class="p_nickname">slug</p>
+            <h2 class="f_name">slug</h2>
+            <h3 class="f_info">slug</h3>
+            <p class="f_lastline">slug</p>
         </section>
     </template>
 
     <footer>
-        <nav class="subnav">
-            <ul>
+        <div class="container_2">
+            <div class="video_1">
+                <ul>
+                    <iframe width="400" height="315" src="https://www.youtube.com/embed/hUNAtr-xgyo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </iframe>
 
-            </ul>
-        </nav>
+                </ul>
+                <div class="video_2">
+                    <iframe width="400" height="315" src="https://www.youtube.com/embed/Iw4zwSwQ_gg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="video_3">
+                    <iframe width="400" height="315" src="https://www.youtube.com/embed/RjpvuPAzJUw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            </nav>
     </footer>
 
     <!-- your JS always goes here -->
     <!-- make the JS file wait to be parsed with the defer attribute (last thing the DOM engine reads)-->
     <!-- the type attribute tels the JS engine that we're using modules (standalone JS files)-->
-    <!-- <script src="js/modules/data.js"></script> -->
-    <script src="js/main.js" type="module" defer></script>
+    <!-- <script src="js/modules/data.js "></script> -->
+    <script src="js/main.js " type="module " defer></script>
 
 </body>
 
