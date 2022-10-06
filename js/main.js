@@ -2,15 +2,12 @@
 //this is called an IIFE (Inmediatly Invoked Function Expression)
 import { getData } from "./modules/dataMiner.js";
 
-//it's a pretty common JavaScript programming pattern
-//also called a module file
+// adding the script below : 
 (() => {
     console.log('fired!');
     let theTeam = document.querySelector('#fav-section'),
         theTemplate = document.querySelector('#fav-template').content;
-
-    // just a test to see if this is imported properly
-    // getData();
+    const thebtn = document.querySelectorAll(".btn");
 
     function buildTeam(data) {
         //get all the keys (names) from the data object and use that to iterate through the data
@@ -32,8 +29,19 @@ import { getData } from "./modules/dataMiner.js";
             containers[3].textContent = data[prof].nickname;
 
             theTeam.appendChild(panel);
+
+            // adding the button function 
+            // debugger;
+
+            function showData() {
+                containers[0].querySelector('img').src = `images/${data[prof].picture}`;
+            }
+
+            thebtn.forEach(button => button.addEventListener("click", showData));
+
         })
     }
+
 
 
     getData(buildTeam);

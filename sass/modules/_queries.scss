@@ -17,3 +17,18 @@
             grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
         }
     }
+    
+    .btn {
+        padding: 20px 10px;
+        text-transform: uppercase;
+        background-color: #01257a;
+        color: #fff;
+        text-align: center;
+        margin-top: 10px;
+        cursor: pointer;
+        transition: .5s all ease-out;
+    }
+    
+    .btn:hover {
+        background-color: #890505;
+    }

@@ -2,19 +2,22 @@
     "first-favourite": {
         "favourite": "Cricket",
         "info": "Cricket is my favourite game because it is played in every institution and it is one of the most loved sports. It is the most exciting game in our country and is also played in many countries worldwide. Cricket is one of the most popular games played in India for children",
-        "nickname": "When it comes to cricket, MS Dhoni is my Favourite Player who use to represent Team India.",
-        "fav_images": "cricket.jpg"
+        "nickname": "Click the below button to see my Favourite Player.",
+        "fav_images": "cricket.jpg",
+        "picture": "vk.jpg"
     },
     "Second-favourite": {
         "favourite": "Gaming",
         "info": "For me Gaming is everything, I love gaming be it day or midnight, I would love to play games. Mostly I like Playing competitive games like FIFA or Cricket in my Playstation with my friends along with that I also Play First Person Shooting games as well.",
-        "nickname": "As I mentioned when it comes to play station my favourite game is FIFA 2022.",
-        "fav_images": "ps4.jpg"
+        "nickname": "Click the below button to see my Favourite Game in PS4",
+        "fav_images": "ps4.jpg",
+        "picture": "fifa.jpg"
     },
     "third-Favourite": {
         "favourite": "Binge Watching",
         "info": " The Other most favourite thing for me is to binge watch TV Shows on netflix and I can binge watch mostly sitcoms in my free time, It's one of the best time for me when I am just sitting on my couch and watching one of the popular sitcomes out there on streaming platform.",
-        "nickname": "My Forever Favourite Sitcom is Friends",
-        "fav_images": "netflix.jpg"
+        "nickname": "Click the below button to see my Favourite Sitcom",
+        "fav_images": "netflix.jpg",
+        "picture": "friends.jpg"
     }
 }
