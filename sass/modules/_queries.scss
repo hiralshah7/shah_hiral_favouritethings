@@ -1,7 +1,7 @@
     @media screen and (min-width: 768px) {
         //add the grid to the team section
         #fav-section {
-            display: grid;
+            display: flex;
             align-content: space-between;
             // justify-content: space-between;
             // border: 1px solid black;
@@ -13,12 +13,7 @@
     }
     
     .btn {
-        padding-top: 25px;
-        padding-bottom: 25px;
-        margin-bottom: 20px;
-        margin-left: 30em;
-        margin-right: 30em;
-        border-radius: 500px;
+        padding: 20px;
         text-transform: uppercase;
         background-color: rgb(0, 118, 150);
         color: #fff;
