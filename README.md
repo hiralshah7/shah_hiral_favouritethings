@@ -1,5 +1,4 @@
 ## MY FAVOURITE THING
-=================
 How do I clone it locally?
 
 Run `git clone in the folder where you want to clone it. Then host the site on a localhost server.
